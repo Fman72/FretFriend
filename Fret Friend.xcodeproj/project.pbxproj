@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0308CBD01CFA7EC000187705 /* ChordSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0308CBCF1CFA7EC000187705 /* ChordSelectController.m */; };
+		03C731E11CF6B274007CEFC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C731E01CF6B274007CEFC3 /* Main.storyboard */; };
+		EF00901A1CF54EC60088646D /* FretboardImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0090191CF54EC60088646D /* FretboardImageView.m */; };
+		EF00901D1CF550340088646D /* FretboardEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00901C1CF550340088646D /* FretboardEntity.m */; };
+		EF5A37681CF020FA0034E354 /* Chord.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A37671CF020FA0034E354 /* Chord.m */; };
+		EF9CADF11CE2FCCA00F806B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9CADF01CE2FCCA00F806B1 /* main.m */; };
+		EF9CADF41CE2FCCA00F806B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9CADF31CE2FCCA00F806B1 /* AppDelegate.m */; };
+		EF9CADF71CE2FCCA00F806B1 /* FreePlayInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9CADF61CE2FCCA00F806B1 /* FreePlayInterfaceController.m */; };
+		EF9CADFC1CE2FCCA00F806B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9CADFB1CE2FCCA00F806B1 /* Assets.xcassets */; };
+		EF9CADFF1CE2FCCA00F806B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9CADFD1CE2FCCA00F806B1 /* LaunchScreen.storyboard */; };
+		EF9CAE0A1CE2FCCA00F806B1 /* FretboardViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9CAE091CE2FCCA00F806B1 /* FretboardViewAppTests.m */; };
+		EF9CAE151CE2FCCA00F806B1 /* FretboardViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9CAE141CE2FCCA00F806B1 /* FretboardViewAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF9CAE061CE2FCCA00F806B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9CADE41CE2FCCA00F806B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9CADEB1CE2FCCA00F806B1;
+			remoteInfo = FretboardViewApp;
+		};
+		EF9CAE111CE2FCCA00F806B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9CADE41CE2FCCA00F806B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9CADEB1CE2FCCA00F806B1;
+			remoteInfo = FretboardViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0308CBCE1CFA7EC000187705 /* ChordSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordSelectController.h; sourceTree = "<group>"; };
+		0308CBCF1CFA7EC000187705 /* ChordSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChordSelectController.m; sourceTree = "<group>"; };
+		03C731E01CF6B274007CEFC3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF0090181CF54EC60088646D /* FretboardImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretboardImageView.h; sourceTree = "<group>"; };
+		EF0090191CF54EC60088646D /* FretboardImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretboardImageView.m; sourceTree = "<group>"; };
+		EF00901B1CF550200088646D /* FretboardEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretboardEntity.h; sourceTree = "<group>"; };
+		EF00901C1CF550340088646D /* FretboardEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretboardEntity.m; sourceTree = "<group>"; };
+		EF5A37661CF020FA0034E354 /* Chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chord.h; sourceTree = "<group>"; };
+		EF5A37671CF020FA0034E354 /* Chord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chord.m; sourceTree = "<group>"; };
+		EF9CADEC1CE2FCCA00F806B1 /* Fret Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fret Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9CADF01CE2FCCA00F806B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9CADF21CE2FCCA00F806B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9CADF31CE2FCCA00F806B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9CADF51CE2FCCA00F806B1 /* FreePlayInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreePlayInterfaceController.h; sourceTree = "<group>"; };
+		EF9CADF61CE2FCCA00F806B1 /* FreePlayInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreePlayInterfaceController.m; sourceTree = "<group>"; };
+		EF9CADFB1CE2FCCA00F806B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9CADFE1CE2FCCA00F806B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF9CAE001CE2FCCA00F806B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9CAE051CE2FCCA00F806B1 /* Fret Friend.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fret Friend.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9CAE091CE2FCCA00F806B1 /* FretboardViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FretboardViewAppTests.m; sourceTree = "<group>"; };
+		EF9CAE0B1CE2FCCA00F806B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9CAE101CE2FCCA00F806B1 /* Fret Friend.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fret Friend.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9CAE141CE2FCCA00F806B1 /* FretboardViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FretboardViewAppUITests.m; sourceTree = "<group>"; };
+		EF9CAE161CE2FCCA00F806B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9CADE91CE2FCCA00F806B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9CAE021CE2FCCA00F806B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9CAE0D1CE2FCCA00F806B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C731DF1CF6ACD4007CEFC3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A37661CF020FA0034E354 /* Chord.h */,
+				EF5A37671CF020FA0034E354 /* Chord.m */,
+				EF00901B1CF550200088646D /* FretboardEntity.h */,
+				EF00901C1CF550340088646D /* FretboardEntity.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		03C731E21CF6B308007CEFC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CADF51CE2FCCA00F806B1 /* FreePlayInterfaceController.h */,
+				EF9CADF61CE2FCCA00F806B1 /* FreePlayInterfaceController.m */,
+				0308CBCE1CFA7EC000187705 /* ChordSelectController.h */,
+				0308CBCF1CFA7EC000187705 /* ChordSelectController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		03C731E31CF6B324007CEFC3 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				03C731E01CF6B274007CEFC3 /* Main.storyboard */,
+				EF9CADFD1CE2FCCA00F806B1 /* LaunchScreen.storyboard */,
+				EF0090181CF54EC60088646D /* FretboardImageView.h */,
+				EF0090191CF54EC60088646D /* FretboardImageView.m */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		EF9CADE31CE2FCCA00F806B1 = {
+			isa = PBXGroup;
+			children = (
+				EF9CADEE1CE2FCCA00F806B1 /* FretboardViewApp */,
+				EF9CAE081CE2FCCA00F806B1 /* FretboardViewAppTests */,
+				EF9CAE131CE2FCCA00F806B1 /* FretboardViewAppUITests */,
+				EF9CADED1CE2FCCA00F806B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9CADED1CE2FCCA00F806B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CADEC1CE2FCCA00F806B1 /* Fret Friend.app */,
+				EF9CAE051CE2FCCA00F806B1 /* Fret Friend.xctest */,
+				EF9CAE101CE2FCCA00F806B1 /* Fret Friend.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9CADEE1CE2FCCA00F806B1 /* FretboardViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				03C731E31CF6B324007CEFC3 /* Interfaces */,
+				03C731E21CF6B308007CEFC3 /* Controllers */,
+				03C731DF1CF6ACD4007CEFC3 /* Entities */,
+				EF9CADF21CE2FCCA00F806B1 /* AppDelegate.h */,
+				EF9CADF31CE2FCCA00F806B1 /* AppDelegate.m */,
+				EF9CADFB1CE2FCCA00F806B1 /* Assets.xcassets */,
+				EF9CAE001CE2FCCA00F806B1 /* Info.plist */,
+				EF9CADEF1CE2FCCA00F806B1 /* Supporting Files */,
+			);
+			path = FretboardViewApp;
+			sourceTree = "<group>";
+		};
+		EF9CADEF1CE2FCCA00F806B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CADF01CE2FCCA00F806B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF9CAE081CE2FCCA00F806B1 /* FretboardViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CAE091CE2FCCA00F806B1 /* FretboardViewAppTests.m */,
+				EF9CAE0B1CE2FCCA00F806B1 /* Info.plist */,
+			);
+			path = FretboardViewAppTests;
+			sourceTree = "<group>";
+		};
+		EF9CAE131CE2FCCA00F806B1 /* FretboardViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CAE141CE2FCCA00F806B1 /* FretboardViewAppUITests.m */,
+				EF9CAE161CE2FCCA00F806B1 /* Info.plist */,
+			);
+			path = FretboardViewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9CADEB1CE2FCCA00F806B1 /* Fret Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9CAE191CE2FCCA00F806B1 /* Build configuration list for PBXNativeTarget "Fret Friend" */;
+			buildPhases = (
+				EF9CADE81CE2FCCA00F806B1 /* Sources */,
+				EF9CADE91CE2FCCA00F806B1 /* Frameworks */,
+				EF9CADEA1CE2FCCA00F806B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fret Friend";
+			productName = FretboardViewApp;
+			productReference = EF9CADEC1CE2FCCA00F806B1 /* Fret Friend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF9CAE041CE2FCCA00F806B1 /* Fret FriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9CAE1C1CE2FCCA00F806B1 /* Build configuration list for PBXNativeTarget "Fret FriendTests" */;
+			buildPhases = (
+				EF9CAE011CE2FCCA00F806B1 /* Sources */,
+				EF9CAE021CE2FCCA00F806B1 /* Frameworks */,
+				EF9CAE031CE2FCCA00F806B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9CAE071CE2FCCA00F806B1 /* PBXTargetDependency */,
+			);
+			name = "Fret FriendTests";
+			productName = FretboardViewAppTests;
+			productReference = EF9CAE051CE2FCCA00F806B1 /* Fret Friend.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF9CAE0F1CE2FCCA00F806B1 /* Fret FriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9CAE1F1CE2FCCA00F806B1 /* Build configuration list for PBXNativeTarget "Fret FriendUITests" */;
+			buildPhases = (
+				EF9CAE0C1CE2FCCA00F806B1 /* Sources */,
+				EF9CAE0D1CE2FCCA00F806B1 /* Frameworks */,
+				EF9CAE0E1CE2FCCA00F806B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9CAE121CE2FCCA00F806B1 /* PBXTargetDependency */,
+			);
+			name = "Fret FriendUITests";
+			productName = FretboardViewAppUITests;
+			productReference = EF9CAE101CE2FCCA00F806B1 /* Fret Friend.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9CADE41CE2FCCA00F806B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Unitec;
+				TargetAttributes = {
+					EF9CADEB1CE2FCCA00F806B1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N9P222W44F;
+					};
+					EF9CAE041CE2FCCA00F806B1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y9KZN485KR;
+						TestTargetID = EF9CADEB1CE2FCCA00F806B1;
+					};
+					EF9CAE0F1CE2FCCA00F806B1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y9KZN485KR;
+						TestTargetID = EF9CADEB1CE2FCCA00F806B1;
+					};
+				};
+			};
+			buildConfigurationList = EF9CADE71CE2FCCA00F806B1 /* Build configuration list for PBXProject "Fret Friend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9CADE31CE2FCCA00F806B1;
+			productRefGroup = EF9CADED1CE2FCCA00F806B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9CADEB1CE2FCCA00F806B1 /* Fret Friend */,
+				EF9CAE041CE2FCCA00F806B1 /* Fret FriendTests */,
+				EF9CAE0F1CE2FCCA00F806B1 /* Fret FriendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9CADEA1CE2FCCA00F806B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9CADFF1CE2FCCA00F806B1 /* LaunchScreen.storyboard in Resources */,
+				EF9CADFC1CE2FCCA00F806B1 /* Assets.xcassets in Resources */,
+				03C731E11CF6B274007CEFC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9CAE031CE2FCCA00F806B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9CAE0E1CE2FCCA00F806B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9CADE81CE2FCCA00F806B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A37681CF020FA0034E354 /* Chord.m in Sources */,
+				EF9CADF71CE2FCCA00F806B1 /* FreePlayInterfaceController.m in Sources */,
+				EF00901A1CF54EC60088646D /* FretboardImageView.m in Sources */,
+				EF9CADF41CE2FCCA00F806B1 /* AppDelegate.m in Sources */,
+				EF00901D1CF550340088646D /* FretboardEntity.m in Sources */,
+				0308CBD01CFA7EC000187705 /* ChordSelectController.m in Sources */,
+				EF9CADF11CE2FCCA00F806B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9CAE011CE2FCCA00F806B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9CAE0A1CE2FCCA00F806B1 /* FretboardViewAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9CAE0C1CE2FCCA00F806B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9CAE151CE2FCCA00F806B1 /* FretboardViewAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF9CAE071CE2FCCA00F806B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9CADEB1CE2FCCA00F806B1 /* Fret Friend */;
+			targetProxy = EF9CAE061CE2FCCA00F806B1 /* PBXContainerItemProxy */;
+		};
+		EF9CAE121CE2FCCA00F806B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9CADEB1CE2FCCA00F806B1 /* Fret Friend */;
+			targetProxy = EF9CAE111CE2FCCA00F806B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF9CADFD1CE2FCCA00F806B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9CADFE1CE2FCCA00F806B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9CAE171CE2FCCA00F806B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF9CAE181CE2FCCA00F806B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9CAE1A1CE2FCCA00F806B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FretboardViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unitec.iOS.FretFriend;
+				PRODUCT_NAME = "Fret Friend";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF9CAE1B1CE2FCCA00F806B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FretboardViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unitec.iOS.FretFriend;
+				PRODUCT_NAME = "Fret Friend";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF9CAE1D1CE2FCCA00F806B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FretboardViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.FretboardViewAppTests;
+				PRODUCT_NAME = "Fret Friend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fret Friend.app/Fret Friend";
+			};
+			name = Debug;
+		};
+		EF9CAE1E1CE2FCCA00F806B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FretboardViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.FretboardViewAppTests;
+				PRODUCT_NAME = "Fret Friend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fret Friend.app/Fret Friend";
+			};
+			name = Release;
+		};
+		EF9CAE201CE2FCCA00F806B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FretboardViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.FretboardViewAppUITests;
+				PRODUCT_NAME = "Fret Friend";
+				TEST_TARGET_NAME = FretboardViewApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF9CAE211CE2FCCA00F806B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FretboardViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.FretboardViewAppUITests;
+				PRODUCT_NAME = "Fret Friend";
+				TEST_TARGET_NAME = FretboardViewApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9CADE71CE2FCCA00F806B1 /* Build configuration list for PBXProject "Fret Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9CAE171CE2FCCA00F806B1 /* Debug */,
+				EF9CAE181CE2FCCA00F806B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9CAE191CE2FCCA00F806B1 /* Build configuration list for PBXNativeTarget "Fret Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9CAE1A1CE2FCCA00F806B1 /* Debug */,
+				EF9CAE1B1CE2FCCA00F806B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9CAE1C1CE2FCCA00F806B1 /* Build configuration list for PBXNativeTarget "Fret FriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9CAE1D1CE2FCCA00F806B1 /* Debug */,
+				EF9CAE1E1CE2FCCA00F806B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9CAE1F1CE2FCCA00F806B1 /* Build configuration list for PBXNativeTarget "Fret FriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9CAE201CE2FCCA00F806B1 /* Debug */,
+				EF9CAE211CE2FCCA00F806B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9CADE41CE2FCCA00F806B1 /* Project object */;
+}

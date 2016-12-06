@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[FreePlayInterfaceController handleTouchesEndedOnFretboardImageView:]:FreePlayInterfaceController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardEntity initWithView:]:FretboardEntity.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardImageView touchesMoved:withEvent:]:FretboardImageView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "fabsf(newLocation.x - prevLocation.x)">
+            </PersistentString>
+            <PersistentString
+               value = "self.fretboardEntity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardImageView convertTouchPointToImagePoint:]:FretboardImageView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardEntity getStringTouchedAtY:]:FretboardEntity.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.fretHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FreePlayInterfaceController viewDidLoad]:FreePlayInterfaceController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.fretboardImageView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.fretboardImageView.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardImageView touchesEnded:withEvent:]:FretboardImageView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardImageView touchesBegan:withEvent:]:FretboardImageView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardEntity retrieveNotesFromTouches:]:FretboardEntity.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "fretPressed.intValue + 1">
+            </PersistentString>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+            <PersistentString
+               value = "self.notesToReturn">
+            </PersistentString>
+            <PersistentString
+               value = "[[self.stringNotes objectAtIndex:stringPressed.intValue] objectAtIndex:fretPressed.intValue + 1];">
+            </PersistentString>
+            <PersistentString
+               value = "self.oldNotes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FretboardEntity openStringsForTouches:]:FretboardEntity.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "touches">
+            </PersistentString>
+            <PersistentString
+               value = "self.currentNotes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
